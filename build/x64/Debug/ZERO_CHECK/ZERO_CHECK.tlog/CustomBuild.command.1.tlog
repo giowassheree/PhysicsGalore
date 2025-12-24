@@ -1,0 +1,10 @@
+^C:\USERS\MUNIZ\ONEDRIVE - TEMPLE UNIVERSITY\DESKTOP\CODING PROJECTS 2\PHYSICSGALORE\BUILD\CMAKEFILES\3C533FA736FD148461B3C79223CEE305\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" "-SC:/Users/muniz/OneDrive - Temple University/Desktop/Coding Projects 2/PhysicsGalore" "-BC:/Users/muniz/OneDrive - Temple University/Desktop/Coding Projects 2/PhysicsGalore/build" --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file "C:/Users/muniz/OneDrive - Temple University/Desktop/Coding Projects 2/PhysicsGalore/build/PhysicsGalore.sln"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

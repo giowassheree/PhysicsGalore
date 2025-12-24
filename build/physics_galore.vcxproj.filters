@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Users\muniz\OneDrive - Temple University\Desktop\Coding Projects 2\PhysicsGalore\main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\muniz\OneDrive - Temple University\Desktop\Coding Projects 2\PhysicsGalore\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{D5B9F6AC-F791-3E96-93DF-E345FD3680F0}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
